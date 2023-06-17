@@ -1,15 +1,15 @@
-body {
+.tranCode.body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-form {
+.tranCode.body form {
   display: flex;
   justify-content: center;
 }
-input {
+.tranCode.body input {
   margin: 0 0.5rem;
   padding: 0.5rem;
   border: 1px solid #333;
@@ -18,7 +18,7 @@ input {
   text-align: center;
   font-size: 3rem;
 }
-.special {
+.tranCode.body .special {
   margin-top: 2rem;
   font-size: 2rem;
   opacity: 1;
